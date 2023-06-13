@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHECKLIST - AMALFIS 2.0</title>
+
+    <!-- RESET -->
+    <link rel="stylesheet" href="./css/reset.css">
+
+    <!-- Estilo - Amalfis -->
+    <link rel="stylesheet" href="./css/amalfis.css">
+
+</head>
+<body>
+<div class="width-100">
+    <header>
+        <div class="cabeca">
+            <a href="https://www.amalfis.com.br/" target="_blank">
+                <div class="logo">
+                    <img src="./img/Logotipo-Amalfis.jpeg" alt="logo-amalfis">
+                </div>  
+            </a>
+        </div>
+        <h1>CheckList - Amalfis</h1><br><br><br>
+        
+        <form>
+            <fieldset  class="req-plca">
+                <label for="requisicao"><strong>Requisição</strong> </label>
+                <input type="text" name="requsicao" id="requisicao" required><br><br>
+
+                <label for="placa"><strong>Placa</strong></label>
+                <input type="text" name="placa" id="placa">
+            </fieldset>
+        </form>
+    </header><br><br><br><br><br><br>
+
+    <main>
+        <div>
+            <section>
+                <img src="./img/Imagem-do-carro.png" alt="carro">
+            </section><br><br>
+            <section>
+                <textarea name="observacao" id="observacao" cols="76" rows="23"></textarea>
+            </section>
+        </div>
+
+        <label for="veiculo"><strong>Veículo</strong></label>
+        <select name="veiculo" id="veiculo">
+            <option selected disabled value="">Selecione</option>
+            <option value="">Fiat - Fiorino</option>
+            <option value="">Fiat - Mobi (Comercial)</option>
+            <option value="">Hyundai - HR HBR</option>
+        </select><br><br><br><br><br>
+
+        <h1><strong>Marcar os itens que apresentaram problemas</strong></h1><br><br>
+
+        <div id="quadro">
+        <input type="checkbox" id="checkbox01." name="Farol Esq." value="Farol Esq.">Farol Esq.
+        <input type="checkbox" id="checkbox02" name="Farol Dir." value="Farol Dir.">Farol Dir.
+        <input type="checkbox" id="checkbox03" name="Pisca Esq." value="Pisca Esq.">Pisca Esq.
+        <input type="checkbox" id="checkbox04" name="Pisca Dir." value="Pisca Dir.">Pisca Dir.
+        <input type="checkbox" id="checkbox05" name="Lanterna Esq." value="Lanterna Esq.">Lanterna Esq.
+        <input type="checkbox" id="checkbox06" name="Lanterna Dir." value="Lanterna Dir.">Lanterna Dir.
+        <input type="checkbox" id="checkbox07" name="Luz Freio" value="Luz Freio">Luz Freio
+        <input type="checkbox" id="checkbox08" name="Luz Placa" value="Luz Placa">Luz Placa
+        <input type="checkbox" id="checkbox09" name="Buznia" value="Buznia">Buznia
+        <input type="checkbox" id="checkbox10" name="Ar condicionado" value="Ar condicionado">Ar condicionado
+        <input type="checkbox" id="checkbox11" name="Retrovisor interno" value="Retrovisor interno">Retrovisor interno
+        <input type="checkbox" id="checkbox12" name="Retrovisor Esq." value="Retrovisor Esq.">Retrovisor Esq.
+        <input type="checkbox" id="checkbox13" name="Retrovisor Dir." value="Retrovisor Dir.">Retrovisor Dir.
+        <input type="checkbox" id="checkbox14" name="Nivel de óleo motor" value="Nivel de óleo motor">Nivel de óleo motor
+        <input type="checkbox" id="checkbox15" name="Nivel água parabrisa" value="Nivel água parabrisa">Nivel água parabrisa
+        <input type="checkbox" id="checkbox16" name="Limpador parabrisa" value="Limpador parabrisa">Limpador parabrisa
+        <input type="checkbox" id="checkbox17" name="Vidros laterais" value="Vidros laterais">Vidros laterais
+        <input type="checkbox" id="checkbox18" name="Parabrisa traseiro" value="Parabrisa traseiro">Parabrisa traseiro
+        <input type="checkbox" id="checkbox19" name="Parabrisa dianteiro" value="Parabrisa dianteiro">Parabrisa dianteiro
+        <input type="checkbox" id="checkbox20" name="Vidros elétricos" value="Vidros elétricos">Vidros elétricos
+        <input type="checkbox" id="checkbox21" name="Rádio" value="Rádio">Rádio
+        <input type="checkbox" id="checkbox22 " name="Estofamento " value="Estofamento ">Estofamento 
+        <input type="checkbox" id="checkbox23" name="Tapetes" value="Tapetes">Tapetes
+        <input type="checkbox" id="checkbox24" name="Forro interno" value="Forro interno">Forro interno
+        <input type="checkbox" id="checkbox25" name="macaco" value="macaco">Macaco
+        <input type="checkbox" id="checkbox26" name="Chave de roda" value="Chave de roda">Chave de roda
+        <input type="checkbox" id="checkbox27" name="Estepe" value="Estepe">Estepe
+        <input type="checkbox" id="checkbox28" name="Triangulo" value="Triangulo">Triangulo
+        <input type="checkbox" id="checkbox29" name="Extintor" value="Extintor">Extintor
+        <input type="checkbox" id="checkbox30" name="Bateria" value="Bateria">Bateria
+        <input type="checkbox" id="checkbox31" name="Indicadores painel" value="Indicadores painel">Indicadores painel
+        <input type="checkbox" id="checkbox32" name="Documento veicular" value="Documento veicular">Documento veicular
+        <input type="checkbox" id="checkbox33" name="Manual do carro" value="Manual do carro">Manual do carro
+        <input type="checkbox" id="checkbox34" name="Cintos de segurança" value="Cintos de segurança">Cintos de segurança
+        <input type="checkbox" id="checkbox35" name="Limpeza interior" value="Limpeza interior">Limpeza interior
+        <input type="checkbox" id="checkbox36" name="Limpeza exterior" value="Limpeza exterior">Limpeza exterior
+        <input type="checkbox" id="checkbox37" name="Chave ignição" value="Chave ignição">Chave ignição
+        <input type="checkbox" id="checkbox38" name="Outros" value="Outros">Outros
+    </div><br><br>
+
+    <h1><strong>Controle de utilização de veiculos</strong></h1><br><br><br>
+
+    <label><strong>Empresa</strong></label>
+    <select name="" id="">
+        <option selected disabled value="">Selecione</option>
+        <option value="">Matriz</option>
+        <option value="">Filial - Passa Quatro</option>
+    </select><br><br>
+
+    <label><strong>Condutor</strong></label>
+    <input type="text" name="condutor" id="condutor"><br><br>
+
+    <h4><strong>Itinerário</strong></h4>
+    <textarea name="" id="" cols="80" rows="10"></textarea><br><br>
+
+    <h4><strong>Finalidade</strong></h4>
+    <textarea name="" id="" cols="80" rows="10"></textarea><br><br>
+
+    <label><strong>Data e hora de saída</strong></label>
+    <input type="datetime-local" name="date"><br><br>
+    <p><strong>KM de saída:</strong></p>
+    <input type="text" name="odometro"><br><br>
+
+    <label><strong>Combustivel</strong></label>
+    <select name="combustivel" id="combustivel">
+        <option selected disabled value="Selecione">Selecione</option>
+        <option value="cheio">Cheio</option>
+        <option value="meio-tanque">Meio tanque</option>
+        <option value="reserva">Reserva</option>
+    </select><br><br>
+
+    <label><strong>Devolução do veículo</strong></label>
+    <input type="datetime-local" name="date-return"><br><br>
+    <p><strong>KM de chegada:</strong></p>
+    <input type="text" name="Odometro" id="Odometro"><br><br>
+
+    <label><strong>Declaro que devolvi o veículo conforme vistoria:</strong></label><br><br>
+
+    <label><strong>Colaborador:</strong></label><br>
+    <input type="text" name="colaborador">
+    </main><br><br>
+
+    <div id="btn-gerar">
+    <button><strong>
+        <a href="GERAR">GERAR</a>
+    </strong></button>
+    </div><br><br><br>
+
+    <footer>
+        <a href="https://www.amalfis.com.br/" target="_blank">
+           <strong>&copy AMALFIS UNIFORMES CONFECÇÃO DE ROUPAS LTDA - Vtr 2023</strong> 
+        </a>
+    </footer>
+</div>      
+</body>
+</html>
